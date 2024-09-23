@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dls3ekenbbpjo"]
+
+[ext_resource type="Script" path="res://SCRIPTS/game.gd" id="1_ym3rj"]
+[ext_resource type="PackedScene" uid="uid://cra7snoofinq1" path="res://SCENES/player.tscn" id="2_n1p07"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_ym3rj")
+
+[node name="player" parent="." instance=ExtResource("2_n1p07")]
+position = Vector2(646, -212)
+
+[node name="Spawn" type="Marker2D" parent="."]
+position = Vector2(9, -227)

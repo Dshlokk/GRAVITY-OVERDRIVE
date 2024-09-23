@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dg56vho5rgxup"]
+
+[ext_resource type="Texture2D" uid="uid://ftvdvib2n5uw" path="res://sets/WhatsApp Image 2024-09-19 at 6.25.07 PM.jpeg" id="1_cbdhr"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="WhatsAppImage2024-09-19At6_25_07Pm" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(570.5, 316.5)
+scale = Vector2(0.903906, 0.906944)
+texture = ExtResource("1_cbdhr")

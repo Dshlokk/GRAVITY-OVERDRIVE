@@ -1,0 +1,129 @@
+[gd_scene load_steps=21 format=3 uid="uid://cnc05uuu77imk"]
+
+[ext_resource type="Texture2D" uid="uid://ftvdvib2n5uw" path="res://sets/WhatsApp Image 2024-09-19 at 6.25.07 PM.jpeg" id="1_jdaao"]
+[ext_resource type="Texture2D" uid="uid://bagbaxajsh01c" path="res://sets/plane1.png" id="2_7yyvb"]
+[ext_resource type="Texture2D" uid="uid://h3tb0t0faq8i" path="res://sets/fire.png" id="3_yip25"]
+[ext_resource type="Texture2D" uid="uid://bnfh031llhfum" path="res://sets/heart-removebg-preview.png" id="4_83445"]
+[ext_resource type="Texture2D" uid="uid://bf2qvbg2kvou0" path="res://sets/up - Copy.png" id="5_wu7gv"]
+[ext_resource type="Texture2D" uid="uid://ii5lny1sswb8" path="res://sets/up.png" id="8_lffvl"]
+[ext_resource type="Texture2D" uid="uid://cdpou4kyfkf6m" path="res://sets/s-removebg-preview.png" id="9_xwrr3"]
+[ext_resource type="Texture2D" uid="uid://bsto468mc8o1l" path="res://sets/ss-removebg-preview.png" id="10_eq5qx"]
+[ext_resource type="Texture2D" uid="uid://dnuytdyayb4l0" path="res://sets/sss-removebg-preview.png" id="11_e8pkx"]
+[ext_resource type="Texture2D" uid="uid://belu21jbh5ye5" path="res://sets/ssss-removebg-preview.png" id="12_ht8s6"]
+[ext_resource type="Texture2D" uid="uid://dyyar328k0owo" path="res://sets/big-removebg-preview.png" id="13_gu0in"]
+[ext_resource type="Texture2D" uid="uid://58422auonkom" path="res://sets/ddot-removebg-preview.png" id="14_iydn7"]
+[ext_resource type="Texture2D" uid="uid://bxp1wrjqfqw2d" path="res://sets/ddott-removebg-preview.png" id="15_57ydm"]
+[ext_resource type="Texture2D" uid="uid://beihvksiilyiw" path="res://sets/ddottt-removebg-preview.png" id="16_ke32x"]
+[ext_resource type="Texture2D" uid="uid://dsllf31xqxj1p" path="res://sets/ddotttt-removebg-preview.png" id="17_26rac"]
+[ext_resource type="Texture2D" uid="uid://c83in5qpte0ua" path="res://sets/dot-removebg-preview.png" id="18_ekgfx"]
+[ext_resource type="Texture2D" uid="uid://dcm42omdkis0f" path="res://sets/dott-removebg-preview.png" id="19_2i1xm"]
+[ext_resource type="Texture2D" uid="uid://qbp3qh5inys6" path="res://sets/dottt-removebg-preview.png" id="20_gsrnb"]
+[ext_resource type="Texture2D" uid="uid://ddmhac4plwrih" path="res://sets/dotttt-removebg-preview.png" id="21_45jwc"]
+[ext_resource type="Texture2D" uid="uid://3xiujwa6m22c" path="res://sets/dottttt-removebg-preview.png" id="22_l36bu"]
+
+[node name="game" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+
+[node name="Plane1" type="Sprite2D" parent="."]
+position = Vector2(574, 323)
+scale = Vector2(0.898438, 0.893055)
+texture = ExtResource("1_jdaao")
+
+[node name="Plane2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(140, 218)
+scale = Vector2(0.38208, 0.378126)
+texture = ExtResource("2_7yyvb")
+
+[node name="Fire" type="Sprite2D" parent="."]
+position = Vector2(1022, 541)
+scale = Vector2(0.285571, 0.276)
+texture = ExtResource("3_yip25")
+
+[node name="Heart-removebg-preview" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(931, 63)
+scale = Vector2(0.369257, 0.420082)
+texture = ExtResource("4_83445")
+
+[node name="Up-Copy" type="Sprite2D" parent="."]
+position = Vector2(125, 562)
+scale = Vector2(0.452957, 0.401067)
+texture = ExtResource("5_wu7gv")
+
+[node name="Up" type="Sprite2D" parent="."]
+position = Vector2(120, 428)
+scale = Vector2(0.510753, 0.439573)
+texture = ExtResource("8_lffvl")
+
+[node name="S-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(651.75, 219)
+scale = Vector2(0.186889, 0.172631)
+texture = ExtResource("9_xwrr3")
+
+[node name="Ss-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(434.25, 381.5)
+scale = Vector2(0.373, 0.338)
+texture = ExtResource("10_eq5qx")
+
+[node name="Sss-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(563, 292.5)
+scale = Vector2(0.228, 0.218)
+texture = ExtResource("11_e8pkx")
+
+[node name="Ssss-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(537, 220)
+scale = Vector2(0.261569, 0.262948)
+texture = ExtResource("12_ht8s6")
+
+[node name="Big-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(342, 271)
+scale = Vector2(0.213523, 0.213964)
+texture = ExtResource("13_gu0in")
+
+[node name="Ddot-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(496.625, 105.625)
+scale = Vector2(0.220363, 0.219602)
+texture = ExtResource("14_iydn7")
+
+[node name="Ddott-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(704, 332.5)
+scale = Vector2(0.199324, 0.267773)
+texture = ExtResource("15_57ydm")
+
+[node name="Ddottt-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(349, 109)
+scale = Vector2(0.216418, 0.150376)
+texture = ExtResource("16_ke32x")
+
+[node name="Ddotttt-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(730.5, 129.625)
+scale = Vector2(0.247881, 0.236767)
+texture = ExtResource("17_26rac")
+
+[node name="Dot-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(631, 86.5)
+scale = Vector2(0.224914, 0.261574)
+texture = ExtResource("18_ekgfx")
+
+[node name="Dott-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(786, 245)
+scale = Vector2(0.395745, 0.328625)
+texture = ExtResource("19_2i1xm")
+
+[node name="Dottt-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(414, 211)
+scale = Vector2(0.227273, 0.219903)
+texture = ExtResource("20_gsrnb")
+
+[node name="Dotttt-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(340, 465)
+scale = Vector2(0.251053, 0.219524)
+texture = ExtResource("21_45jwc")
+
+[node name="Dottttt-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(564.438, 468.5)
+scale = Vector2(0.377342, 0.33048)
+texture = ExtResource("22_l36bu")

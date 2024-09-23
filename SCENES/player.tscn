@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cra7snoofinq1"]
+
+[ext_resource type="Texture2D" uid="uid://fgju57ppsnq7" path="res://SPACE SHIP.png" id="1_nr5bp"]
+[ext_resource type="Script" path="res://SCRIPTS/player.gd" id="1_olua1"]
+
+[node name="player" type="CharacterBody2D" groups=["player"]]
+motion_mode = 1
+script = ExtResource("1_olua1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(175, 582)
+scale = Vector2(0.441538, 0.441538)
+texture = ExtResource("1_nr5bp")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Sprite2D"]
+position = Vector2(14.2509, -5.19165)
+scale = Vector2(2.42509, 1.51917)

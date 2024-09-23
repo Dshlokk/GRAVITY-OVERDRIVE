@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cauwcjwupgi05"]
+
+[ext_resource type="PackedScene" uid="uid://cra7snoofinq1" path="res://SCENES/player.tscn" id="1_dfo6x"]
+[ext_resource type="Texture2D" uid="uid://cn53rwcn63qdu" path="res://sets/LASERRRRRRRRRRRRRRRRRRR.png" id="2_sb2jr"]
+
+[node name="laeser" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Laserrrrrrrrrrrrrrrrrrr" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(484, 232)
+texture = ExtResource("2_sb2jr")
+
+[node name="player" parent="Laserrrrrrrrrrrrrrrrrrr" instance=ExtResource("1_dfo6x")]
+position = Vector2(-418, -575)
